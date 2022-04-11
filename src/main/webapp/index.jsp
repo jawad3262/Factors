@@ -2,7 +2,7 @@
 <head>  
 </head>  
 <body style = "text-align: center; font-size: 20px;">  
-<h1> Welcome to the javaTpoint.com </h1>  
+<h1> Find the Factors </h1>  
 Enter a number: <input id = "num">  
 <br><br>  
 <button onclick = "fact()"> Factorial </button>  
@@ -12,12 +12,15 @@ function fact(){
 var i, num, f;  
 f = 1;  
 num = document.getElementById("num").value;  
+
+if(num > 0){
 for(i = 1; i <= num; i++)    
 {  
-ff = f * i;  
+f = f * i;  
 }  
-ii = i - 1;    
-document.getElementById("res").innerHTML = "The factorial of the number " + i + " is: " + f ;  
+}
+
+document.getElementById("res").innerHTML = "The factorial of the number " + num  + " is: " + f ;  
 }  
 </script>  
 </body>  
