@@ -2,7 +2,7 @@
 <head>  
 </head>  
 <body style = "text-align: center; font-size: 20px;">  
-<h1> Find the Factors </h1>  
+<h1> Find the Factors Biriyani </h1>  
 Enter a number: <input id = "num">  
 <br><br>  
 <button onclick = "fact()"> Factorial </button>  
